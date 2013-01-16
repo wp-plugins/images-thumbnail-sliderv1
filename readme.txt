@@ -39,6 +39,7 @@ to theme or pages/posts.
 9. Admin can set slider as circular slider.
 
 **=Pro Version Features=**
+
 1. Use wordpress featured image in thumbnail slider
 
 2. No advertisements
@@ -76,8 +77,11 @@ This plugin is free for everyone! Since it's released under the GPL, you can use
 == Screenshots ==
 
 1.Slider Setting
+
 2.Manage Images
+
 3.Preview Slider
+
 4.Thumbnail Slider Pro version
 
 
