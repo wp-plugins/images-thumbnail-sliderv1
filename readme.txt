@@ -67,6 +67,7 @@ This plugin is easy to install like other plug-ins of Wordpress as you need to j
 
 OR you can add this to your theme by adding this code echo do_shortcode('[print_thumbnail_slider]'); to your theme
 
+
 == Screenshots ==
 
 1. Slider Setting
