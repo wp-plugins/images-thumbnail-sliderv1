@@ -20,17 +20,27 @@ Admin can add,edit and delete slider images.Before add slider to wordPress blog 
 
 **=Features=**
 1. Add any number of images to slider.
+
 2. Edit images and image name.
+
 3. Image name is used as alt tag for seo.
+
 4. Preview your slider before use it.
-5. Slider installation into theme is simple just add shortcode to theme or pages/posts.
+
+5. Slider installation into theme is simple just add shortcode 
+to theme or pages/posts.
+
 6. changes to images height,width
+
 7. Changes to slider speed is easy.
+
 8. Admin can set slider as slide with arrow left and right arrow.
+
 9. Admin can set slider as circular slider.
 
 **=Pro Version Features=**
 1. Use wordpress featured image in thumbnail slider
+
 2. No advertisements
 
 == Installation ==
@@ -65,10 +75,10 @@ This plugin is free for everyone! Since it's released under the GPL, you can use
 
 == Screenshots ==
 
-1. Slider Setting
-2. Manage Images
-3. Preview Slider
-4. Thumbnail Slider Pro version
+1.Slider Setting
+2.Manage Images
+3.Preview Slider
+4.Thumbnail Slider Pro version
 
 
 == Changelog ==
