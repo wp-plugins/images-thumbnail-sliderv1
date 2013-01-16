@@ -71,10 +71,10 @@ OR you can add this to your theme by adding this code echo do_shortcode('[print_
 
 == Screenshots ==
 
-1.Slider Setting
-2.Manage Images 
-3.Preview Slider
-4.Thumbnail Slider Pro version
+1. Slider Setting
+2. Manage Images 
+3. Preview Slider
+4. Thumbnail Slider Pro version
 
 == License ==
 
