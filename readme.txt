@@ -62,7 +62,9 @@ This plugin is easy to install like other plug-ins of Wordpress as you need to j
 
 3.You can set settings for this plugin using slider settings menu.
 
-4.You can add this slider to your wordpress page/post by adding this shortcode to [print_thumbnail_slider] or you can add this to your theme by adding this code echo do_shortcode('[print_thumbnail_slider]'); to your theme
+4.You can add this slider to your wordpress page/post by adding this shortcode to [print_thumbnail_slider] 
+
+oR you can add this to your theme by adding this code echo do_shortcode('[print_thumbnail_slider]'); to your theme
 
 == Frequently asked questions ==
 
@@ -77,9 +79,13 @@ This plugin is free for everyone! Since it's released under the GPL, you can use
 == Screenshots ==
 
 1. Slider Setting
+
 2. Manage Images 
+
 3. Preview Slider
+
 4. Thumbnail Slider Pro version
+
 
 
 == Changelog ==
