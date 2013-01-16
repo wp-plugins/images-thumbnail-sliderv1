@@ -7,10 +7,8 @@ Tested up to:3.5
 Stable tag:trunk
 License:GPLv2 or later
 License URI:http://www.gnu.org/licenses/gpl-2.0.html
-
-This is beautiful thumbnail slider for wordPress blogs and sites.Admin can manages any number of images into the slider.
-
 == Description ==
+This is beautiful thumbnail slider for wordPress blogs and sites.Admin can manages any number of images into the slider.
 
 This is wordpress simple and easy image and image thumbnail slider.
 Admin can add,edit and delete slider images.Before add slider to wordPress blog admin can preview a slider.Admin can set height,width of slider images.Admin can also set speed,Number Of visible images into slider,Circular slider.Admin can also set if want to slide images with left and right arrow or by automatic slider.
@@ -19,6 +17,7 @@ Admin can add,edit and delete slider images.Before add slider to wordPress blog 
 
 
 **=Features=**
+
 1. Add any number of images to slider.
 
 2. Edit images and image name.
@@ -44,11 +43,14 @@ to theme or pages/posts.
 
 2. No advertisements
 
+[Get Support](http://www.my-php-scripts.net/index.php/Default-form.html)
+
+
 == Installation ==
 
 This plugin is easy to install like other plug-ins of Wordpress as you need to just follow the below mentioned steps:
 
-1. upload wordpress-thumbnail-slider folder to wp-Content/plugins folder.
+1. upload images-thumbnail-sliderv1 folder to wp-Content/plugins folder.
 
 2. Activate the plugin from Dashboard / Plugins window.
 
@@ -64,28 +66,18 @@ This plugin is easy to install like other plug-ins of Wordpress as you need to j
 
 4.You can add this slider to your wordpress page/post by adding this shortcode to [print_thumbnail_slider] 
 
-oR you can add this to your theme by adding this code echo do_shortcode('[print_thumbnail_slider]'); to your theme
-
-== Frequently asked questions ==
-
-1.How to use ?
-
-For More info use readme installation and usage notes.
-
-== License ==
-
-This plugin is free for everyone! Since it's released under the GPL, you can use it free of charge on your personal or commercial blog. But you can make some donations if you realy find it useful.
+OR you can add this to your theme by adding this code echo do_shortcode('[print_thumbnail_slider]'); to your theme
 
 == Screenshots ==
 
 1. Slider Setting
-
 2. Manage Images 
-
 3. Preview Slider
-
 4. Thumbnail Slider Pro version
 
+== License ==
+
+This plugin is free for everyone! Since it's released under the GPL, you can use it free of charge on your personal or commercial blog. But you can make some donations if you realy find it useful.
 
 
 == Changelog ==
@@ -97,3 +89,9 @@ This plugin is free for everyone! Since it's released under the GPL, you can use
 == Upgrade notice ==
 
 * Stable 1.0 first release
+
+== Frequently asked questions ==
+
+1.How to use ?
+
+For More info use readme installation and usage notes.
