@@ -41,7 +41,9 @@ to theme or pages/posts.
 
 1. Use wordpress featured image in thumbnail slider
 
-2. No advertisements
+2. 16 Slider Easing Effects(select your desired slider easing effect)
+
+3. No advertisements
 
 [Get Support](http://www.my-php-scripts.net/index.php/Default-form.html)
 
@@ -75,6 +77,7 @@ OR you can add this to your theme by adding this code echo do_shortcode('[print_
 2. Manage Images 
 3. Preview Slider
 4. Thumbnail Slider Pro version
+5. Thumbnail Slider Easing Effects
 
 == License ==
 
