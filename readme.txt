@@ -41,9 +41,10 @@ to theme or pages/posts.
 
 1. Use wordpress featured image in thumbnail slider
 
-2. 16 Slider Easing Effects(select your desired slider easing effect)
+2. Slider Easing Effects(select your desired slider easing effect from 16 easing effect)
 
 3. No advertisements
+
 
 [Get Support](http://www.my-php-scripts.net/index.php/Default-form.html)
 
