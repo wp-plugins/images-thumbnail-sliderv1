@@ -4,8 +4,8 @@ Donate link:http://my-php-scripts.net/donate-wordpress_image_thumbnail.php
 Tags:wordpress thumbnail slider,wordpress slider,wordpress thumbnail scroller,wp thumbnail slider,wordpress image sliders,wordpress slider with thumbnails,wordpress banner slider,wordpress image slider with thumbnails,thumbnail slider wordpress,wordpress feature slider
 Requires at least:3.0
 Tested up to:3.5
-Version:1.0
-Stable tag:trunk     
+Version:1.1
+Stable tag:1.1
 License:GPLv2 or later
 License URI:http://www.gnu.org/licenses/gpl-2.0.html
 == Description ==
@@ -13,6 +13,8 @@ This is beautiful thumbnail slider for wordPress blogs and sites.Admin can manag
 Admin can add,edit and delete slider images.Before add slider to wordPress blog admin can preview a slider.Admin can set height,width of slider images.Admin can also set speed,Number Of visible images into slider,Circular slider.Admin can also set if want to slide images with left and right arrow or by automatic slider.
 
 **Find WordPress Thumbnail Slider Pro Plugin at [Advanced PHP Scripts](http://www.my-php-scripts.net/index.php/Wordpress/wordpress-thumbnail-slider-pro-wordpress-featured-image-add-into-slider.html)**
+
+**Please rate this plugin if you find it useful**
 
 
 **=Features=**
@@ -91,9 +93,16 @@ This plugin is free for everyone! Since it's released under the GPL, you can use
 
 * Stable 1.0 first release
 
+= 1.1 =
+
+* On image click open link to new tab(window)
+
+
 == Upgrade notice ==
 
 * Stable 1.0 first release
+
+* Stable 1.1 first release(On image click open link to new tab)
 
 == Frequently asked questions ==
 
