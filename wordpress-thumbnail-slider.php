@@ -4,7 +4,7 @@
     Plugin URI:http://www.my-php-scripts.net 
     Description: This is beautiful thumbnail image slider plugin for WordPress.Add any number of images from admin panel.
     Author:Nikunj Gandhi 
-    Version:1.0
+    Version:1.1
     */
 
     add_action('admin_menu', 'add_admin_menu');
