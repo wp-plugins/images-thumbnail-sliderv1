@@ -4,8 +4,8 @@ Donate link:http://my-php-scripts.net/donate-wordpress_image_thumbnail.php
 Tags:wordpress thumbnail slider,wordpress slider,wordpress thumbnail scroller,wp thumbnail slider,wordpress image sliders,wordpress slider with thumbnails,wordpress banner slider,wordpress image slider with thumbnails,thumbnail slider wordpress,wordpress feature slider
 Requires at least:3.0
 Tested up to:3.5
-Version:1.1
-Stable tag:1.1
+Version:1.2
+Stable tag:1.2
 License:GPLv2 or later
 License URI:http://www.gnu.org/licenses/gpl-2.0.html
 == Description ==
@@ -97,12 +97,19 @@ This plugin is free for everyone! Since it's released under the GPL, you can use
 
 * On image click open link to new tab(window)
 
+= 1.2 =
+
+* Some client ask that they have issue when plugin activate themes breakdown,It is just issue with name conflict
+  so just resolved the issue(Please backup your imagestoscroll folder before upgrading and after upgrade replace your imagestoscroll)
 
 == Upgrade notice ==
 
 * Stable 1.0 first release
 
 * Stable 1.1 first release(On image click open link to new tab)
+
+* Stable 1.2 (theme break issue for some clients (Please backup your imagestoscroll folder before upgrading and after upgrade replace your imagestoscroll))
+
 
 == Frequently asked questions ==
 
