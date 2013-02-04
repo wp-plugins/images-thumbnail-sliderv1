@@ -4,7 +4,7 @@ Donate link:http://my-php-scripts.net/donate-wordpress_image_thumbnail.php
 Tags:wordpress thumbnail slider,wordpress slider,wordpress thumbnail scroller,wp thumbnail slider,wordpress image sliders,wordpress slider with thumbnails,wordpress banner slider,wordpress image slider with thumbnails,thumbnail slider wordpress,wordpress feature slider
 Requires at least:3.0
 Tested up to:3.5
-Version:1.1
+Version:1.2
 Stable tag:1.2
 License:GPLv2 or later
 License URI:http://www.gnu.org/licenses/gpl-2.0.html
