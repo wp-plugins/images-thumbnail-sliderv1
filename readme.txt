@@ -12,7 +12,7 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 This is beautiful thumbnail slider for wordPress blogs and sites.Admin can manages any number of images into the slider.
 Admin can add,edit and delete slider images.Before add slider to wordPress blog admin can preview a slider.Admin can set height,width of slider images.Admin can also set speed,Number Of visible images into slider,Circular slider.Admin can also set if want to slide images with left and right arrow or by automatic slider.
 
-**Find WordPress Thumbnail Slider Pro Plugin at [Advanced PHP Scripts](http://www.my-php-scripts.net/index.php/Wordpress/wordpress-thumbnail-slider-pro-wordpress-featured-image-add-into-slider.html)**
+**Find WordPress Thumbnail Slider Pro Plugin(Unlimited Slider+Much more) at [Advanced PHP Scripts](http://www.my-php-scripts.net/index.php/Wordpress/wordpress-thumbnail-slider-pro-wordpress-featured-image-add-into-slider.html)**
 
 
 **Please rate this plugin if you find it useful**
@@ -42,11 +42,19 @@ to theme or pages/posts.
 
 **=Pro Version Features=**
 
-1. Use wordpress featured image in thumbnail slider
+1. Unlimited Slider(Multiple sliders).
 
-2. Slider Easing Effects(select your desired slider easing effect from 16 easing effect)
+2. Add wordpress featured image in thumbnail slider directly from post/page add/edit.
 
-3. No advertisements
+3. Slider Easing Effects(select your desired slider easing effect from 16 easing effect).
+
+4. No advertisements.
+
+5. New Field Added Image Description.If image description set it will added to image title tag.
+
+6.New Field Added Image Order,Now admin can display slider according image order.
+
+7.New Field added open image link in new tab or same tab.
 
 
 [Get Support](http://www.my-php-scripts.net/index.php/Default-form.html)
@@ -82,6 +90,10 @@ OR you can add this to your theme by adding this code echo do_shortcode('[print_
 3. Preview Slider
 4. Thumbnail Slider Pro version
 5. Thumbnail Slider Easing Effects
+6. Thumbnail Slider pro version add image.
+7. Thumbnail Slider pro version manage images.
+8. Thumbnail Slider pro version manage Sliders.
+9. Thumbnail Slider pro version Preview Slider.
 
 == License ==
 
