@@ -927,13 +927,13 @@
                   
                   function validateFile(){
                      
-                     
-                     if(jQuery('#currImg').length>0){
+                     var $n = jQuery.noConflict();   
+                     if($n('#currImg').length>0){
                          return true;
                      }
-                        var fragment = jQuery("#image_name").val();
-                        var filename = jQuery("#image_name").val().replace(/.+[\\\/]/, "");  
-                        var imageid=jQuery("#image_name").val();
+                        var fragment = $n("#image_name").val();
+                        var filename = $n("#image_name").val().replace(/.+[\\\/]/, "");  
+                        var imageid=$n("#image_name").val();
                         
                         if(imageid==""){
                         
@@ -941,8 +941,8 @@
                              return true;
                             else
                             {
-                                jQuery("#err_daynamic").remove();
-                                jQuery("#image_name").after('<label class="image_error" id="err_daynamic">Please select file.</label>');
+                                $n("#err_daynamic").remove();
+                                $n("#image_name").after('<label class="image_error" id="err_daynamic">Please select file.</label>');
                                 return false;  
                             } 
                         }
@@ -952,8 +952,9 @@
                   }
                   function reloadfileupload(){
     
-                                var fragment = jQuery("#image_name").val();
-                                var filename = jQuery("#image_name").val().replace(/.+[\\\/]/, "");
+                                var $n = jQuery.noConflict();  
+                                var fragment = $n("#image_name").val();
+                                var filename = $n("#image_name").val().replace(/.+[\\\/]/, "");
                                 var validExtensions=new Array();
                                 validExtensions[0]='jpg';
                                 validExtensions[1]='jpeg';
@@ -964,17 +965,17 @@
                                 
                                 var extension = filename.substr( (filename.lastIndexOf('.') +1) ).toLowerCase();
                                 
-                                var inarr=parseInt(jQuery.inArray( extension, validExtensions));
+                                var inarr=parseInt($n.inArray( extension, validExtensions));
                                 
                                 if(inarr<0){
                                  
-                                  jQuery("#err_daynamic").remove();
-                                  jQuery('#fileuploaddiv').html(jQuery('#fileuploaddiv').html());   
-                                  jQuery("#image_name").after('<label class="image_error" id="err_daynamic">Invalid file extension</label>');
+                                  $n("#err_daynamic").remove();
+                                  $n('#fileuploaddiv').html($n('#fileuploaddiv').html());   
+                                  $n("#image_name").after('<label class="image_error" id="err_daynamic">Invalid file extension</label>');
                                  
                                 }
                                else{
-                                   jQuery("#err_daynamic").remove();
+                                   $n("#err_daynamic").remove();
                                  
                                } 
 
@@ -1218,10 +1219,11 @@
                         </tr> 
                     </table>        
                     <script type="text/javascript">
-                    jQuery(document).ready(function() {
+                     var $n = jQuery.noConflict();  
+                    $n(document).ready(function() {
                         
                         
-                        jQuery(".mainSliderDiv").jCarouselLite({
+                        $n(".mainSliderDiv").jCarouselLite({
                             btnNext: ".next",
                             btnPrev: ".prev",
                             <?php if($settings['auto']){?>
@@ -1241,7 +1243,7 @@
                              
                         });
                         
-                        jQuery("#mainscollertd").css("visibility","visible")
+                        $n("#mainscollertd").css("visibility","visible")
                         
                         
                     });
@@ -1378,10 +1380,11 @@
             </tr> 
         </table>        
         <script type="text/javascript">
-        jQuery(document).ready(function() {
+         var $n = jQuery.noConflict();  
+        $n(document).ready(function() {
             
             
-            jQuery(".mainSliderDiv").jCarouselLite({
+            $n(".mainSliderDiv").jCarouselLite({
                 btnNext: ".next",
                 btnPrev: ".prev",
                 <?php if($settings['auto']){?>
@@ -1401,7 +1404,7 @@
                  
             });
             
-            jQuery("#mainscollertd").css("visibility","visible")
+            $n("#mainscollertd").css("visibility","visible")
             
             
         });
