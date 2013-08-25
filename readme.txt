@@ -14,6 +14,8 @@ Admin can add,edit and delete slider images.Before add slider to wordPress blog 
 
 **Find WordPress Thumbnail Slider Pro Plugin(Unlimited Slider+Much more) at [Advanced PHP Scripts](http://www.my-php-scripts.net/index.php/Wordpress/wordpress-thumbnail-slider-pro-wordpress-featured-image-add-into-slider.html)**
 
+**[Live Demo WP Thumbnail Slider Pro](http://my-php-scripts.net/wpdemo/wordpress-thumbnail-slider-pro/)**
+
 
 **Please rate this plugin if you find it useful**
 
