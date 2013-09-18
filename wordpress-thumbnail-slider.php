@@ -24,6 +24,8 @@
       }
       
      function install_thumbnailSlider(){
+         
+           set_time_limit(500);
            global $wpdb;
            $table_name = $wpdb->prefix . "thumbnail_slider";
            
