@@ -771,6 +771,15 @@
                 $imageurl=trim($_POST['imageurl']);
                 $createdOn=date('Y-m-d h:i:s');
                 
+                if(function_exists('date_i18n')){
+                    
+                    $createdOn=date_i18n('Y-m-d'.' '.get_option('time_format') ,false,false);
+                    if(get_option('time_format')=='H:i')
+                        $createdOn=date('Y-m-d H:i:s',strtotime($createdOn));
+                    else   
+                        $createdOn=date('Y-m-d h:i:s',strtotime($createdOn));
+                }
+                
                 if ($_FILES["image_name"]["error"] > 0)
                 {
                     $thumbnail_slider_messages=array();
