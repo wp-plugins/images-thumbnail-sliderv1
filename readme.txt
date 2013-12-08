@@ -12,7 +12,9 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 This is beautiful thumbnail slider for wordPress blogs and sites.Admin can manages any number of images into the slider.
 Admin can add,edit and delete slider images.Before add slider to wordPress blog admin can preview a slider.Admin can set height,width of slider images.Admin can also set speed,Number Of visible images into slider,Circular slider.Admin can also set if want to slide images with left and right arrow or by automatic slider.
 
-**Find WordPress Thumbnail Slider Pro Plugin(Unlimited Slider+Much more) at [Advanced PHP Scripts](http://www.my-php-scripts.net/index.php/Wordpress/wordpress-thumbnail-slider-pro-wordpress-featured-image-add-into-slider.html)**
+**Find WordPress Thumbnail Slider Pro Plugin(Unlimited Slider+Much more) at [wordPress Thumbnail Slider Pro](http://www.my-php-scripts.net/index.php/Wordpress/wordpress-thumbnail-slider-pro-wordpress-featured-image-add-into-slider.html)**
+
+**Find WordPress Thumbnail Slider Pro With Lightbox(Unlimited Slider+Much more) at [wordPress Thumbnail Slider With Lightbox](http://www.my-php-scripts.net/index.php/Wordpress/wordpress-lightbox-gallery-slider-pro.html)**
 
 **Find WordPress Responsive Thumbnail Slider Pro Plugin(Unlimited Slider+Much more) at [Responsive Thumbnail Slider Pro](http://www.my-php-scripts.net/index.php/Wordpress/wordpress-responsive-thumbnail-slider-pro.html)**
 
