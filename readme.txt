@@ -50,17 +50,19 @@ to theme or pages/posts.
 
 1. Unlimited Slider(Multiple sliders).
 
-2. Add wordpress featured image in thumbnail slider directly from post/page add/edit.
+2. Use WordPress Media Uploader(wp>3.5) to upload image.
 
-3. Slider Easing Effects(select your desired slider easing effect from 16 easing effect).
+3. Add wordpress featured image in thumbnail slider directly from post/page add/edit.
 
-4. No advertisements.
+4. Slider Easing Effects(select your desired slider easing effect from 16 easing effect).
 
-5. New Field Added Image Description.If image description set it will added to image title tag.
+5. No advertisements.
 
-6.New Field Added Image Order,Now admin can display slider according image order.
+6. New Field Added Image Description.If image description set it will added to image title tag.
 
-7.New Field added open image link in new tab or same tab.
+7.New Field Added Image Order,Now admin can display slider according image order.
+
+8.New Field added open image link in new tab or same tab.
 
 
 [Get Support](http://www.my-php-scripts.net/index.php/Default-form.html)
