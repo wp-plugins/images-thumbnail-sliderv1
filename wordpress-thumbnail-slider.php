@@ -142,8 +142,9 @@
       $settings=get_option('thumbnail_slider_settings');
       
 ?>      
-     <div style="width: 100%;">  
-        <div style="float:left;width:69%;">
+     <div id="poststuff">  
+       <div id="post-body"  class="metabox-holder columns-2" >
+          <div id="post-body-content">
             <div class="wrap">
                <table><tr><td><a href="https://twitter.com/FreeAdsPost" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false">Follow @FreeAdsPost</a>
                 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></td>
@@ -154,8 +155,7 @@
                 </td>
                 </tr>
                 </table>
-                <a target="_blank" href="http://www.shareasale.com/r.cfm?b=357716&amp;u=675922&amp;m=29819&amp;urllink=&amp;afftrack="><img src="http://www.shareasale.com/image/29819/468x60.jpg" alt="Catalyst Theme - WordPress Accelerated" border="0" /></a>
-                <span><h3 style="color: blue;"><a target="_blank" href="http://www.my-php-scripts.net/index.php/Wordpress/wordpress-thumbnail-slider-pro-wordpress-featured-image-add-into-slider.html">Upgrade to WordPress Thumbnail Slider Pro</a></h3></span>
+                <span><h3 style="color: blue;"><a target="_blank" href="http://www.my-php-scripts.net/index.php/Wordpress/wordpress-thumbnail-slider-pro-wordpress-featured-image-add-into-slider.html">UPGRADE TO PRO VERSION</a></h3></span>
                 
       
               <?php
@@ -178,13 +178,13 @@
               ?>      
 
                     <h2>Slider Settings</h2>
-            <br>
+            
             <div id="poststuff">
               <div id="post-body" class="metabox-holder columns-2">
                 <div id="post-body-content">
                   <form method="post" action="" id="scrollersettiings" name="scrollersettiings" >
                 
-                    <div class="stuffbox" id="namediv" style="min-width:550px;">
+                    <div class="stuffbox" id="namediv" style="width:100%;">
                          <h3><label>Link images with url ?</label></h3>
                         <div class="inside">
                              <table>
@@ -199,7 +199,7 @@
                              <div style="clear:both"></div>
                          </div>
                       </div>
-                      <div class="stuffbox" id="namediv" style="min-width:550px;">
+                      <div class="stuffbox" id="namediv" style="width:100%;">
                          <h3><label>Auto Scroll ?</label></h3>
                         <div class="inside">
                              <table>
@@ -214,7 +214,7 @@
                              <div style="clear:both"></div>
                          </div>
                       </div>
-                      <div class="stuffbox" id="namediv" style="min-width:550px;">
+                      <div class="stuffbox" id="namediv" style="width:100%;">
                          <h3><label >Speed</label></h3>
                         <div class="inside">
                              <table>
@@ -230,7 +230,7 @@
                            
                          </div>
                       </div>
-                      <div class="stuffbox" id="namediv" style="min-width:550px;">
+                      <div class="stuffbox" id="namediv" style="width:100%;">
                          <h3><label >Circular Slider ?</label></h3>
                         <div class="inside">
                              <table>
@@ -246,7 +246,7 @@
                            
                          </div>
                       </div>
-                      <div class="stuffbox" id="namediv" style="min-width:550px;">
+                      <div class="stuffbox" id="namediv" style="width:100%;">
                          <h3><label>Slider Background color</label></h3>
                         <div class="inside">
                              <table>
@@ -262,7 +262,7 @@
                              <div style="clear:both"></div>
                          </div>
                       </div>
-                      <div class="stuffbox" id="namediv" style="min-width:550px;">
+                      <div class="stuffbox" id="namediv" style="width:100%;">
                          <h3><label>Visible</label></h3>
                         <div class="inside">
                              <table>
@@ -279,7 +279,7 @@
                            
                          </div>
                       </div>
-                      <div class="stuffbox" id="namediv" style="min-width:550px;">
+                      <div class="stuffbox" id="namediv" style="width:100%;">
                          <h3><label>Scroll</label></h3>
                         <div class="inside">
                              <table>
@@ -295,7 +295,7 @@
                              <div style="clear:both"></div>
                          </div>
                       </div>
-                       <div class="stuffbox" id="namediv" style="min-width:550px;">
+                       <div class="stuffbox" id="namediv" style="width:100%;">
                          <h3><label>Pause On Mouse Over ?</label></h3>
                         <div class="inside">
                              <table>
@@ -310,7 +310,7 @@
                              <div style="clear:both"></div>
                          </div>
                       </div>
-                     <!-- <div class="stuffbox" id="namediv" style="min-width:550px;">
+                     <!-- <div class="stuffbox" id="namediv" style="width:100%;">
                          <h3><label>Slider Width</label></h3>
                         <div class="inside">
                              <table>
@@ -326,7 +326,7 @@
                            
                          </div>
                       </div>-->
-                      <div class="stuffbox" id="namediv" style="min-width:550px;">
+                      <div class="stuffbox" id="namediv" style="width:100%;">
                          <h3><label>Image Height</label></h3>
                         <div class="inside">
                              <table>
@@ -342,7 +342,7 @@
                              <div style="clear:both"></div>
                          </div>
                       </div>
-                      <div class="stuffbox" id="namediv" style="min-width:550px;">
+                      <div class="stuffbox" id="namediv" style="width:100%;">
                          <h3><label>Image Width</label></h3>
                         <div class="inside">
                              <table>
@@ -358,7 +358,7 @@
                              <div style="clear:both"></div>
                          </div>
                       </div>
-                      <div class="stuffbox" id="namediv" style="min-width:550px;">
+                      <div class="stuffbox" id="namediv" style="width:100%;">
                          <h3><label>Physically resize images ?</label></h3>
                         <div class="inside">
                               <table>
@@ -437,12 +437,12 @@
         </div>  
      </div>      
 </div>
-           <div id="poststuff" class="metabox-holder has-right-sidebar" style="float:right;width:30%;margin-top:200px"> 
+           <div id="postbox-container-1" class="postbox-container"> 
                          
            <div class="postbox"> 
               <h3 class="hndle"><span></span>Recommended WordPress Themes</h3> 
               <div class="inside">
-                   <center><a href="http://www.elegantthemes.com/affiliates/idevaffiliate.php?id=11715_0_1_10" target="_blank"><img border="0" src="http://www.elegantthemes.com/affiliates/banners/300x250.gif" width="300" height="250"></a></center>
+                   <center><a href="http://www.elegantthemes.com/affiliates/idevaffiliate.php?id=11715_0_1_10" target="_blank"><img border="0" src="http://www.elegantthemes.com/affiliates/banners/300x250.gif" width="250" height="250"></a></center>
 
                   <div style="margin:10px 5px">
           
@@ -451,7 +451,7 @@
            <div class="postbox"> 
               <h3 class="hndle"><span></span>Recommended WordPress Themes</h3> 
               <div class="inside">
-                   <center><a target="_blank" href="http://www.shareasale.com/r.cfm?b=202505&amp;u=675922&amp;m=24570&amp;urllink=&amp;afftrack="><img src="http://www.shareasale.com/image/24570/thesis-300x250-1.png" alt="Thesis Theme for WordPress:  Options Galore and a Helpful Support Community" border="0" /></a></center>
+                   <center><a target="_blank" href="http://www.shareasale.com/r.cfm?b=531904&u=675922&m=41388&urllink=&afftrack="><img src="http://www.shareasale.com/image/41388/sas_banner_250x250.jpg" alt="WP Engine" border="0"></a></center>
 
                   <div style="margin:10px 5px">
           
@@ -459,6 +459,7 @@
           </div></div>
            
            </div>
+        </div>    
      
     
 <div class="clear"></div></div>  
@@ -489,6 +490,61 @@
       
    ?> 
        <div class="wrap">
+          <!--[if !IE]><!-->
+            <style type="text/css">
+
+              @media only screen and (max-width: 800px) {
+
+                  /* Force table to not be like tables anymore */
+                  #no-more-tables table, 
+                  #no-more-tables thead, 
+                  #no-more-tables tbody, 
+                  #no-more-tables th, 
+                  #no-more-tables td, 
+                  #no-more-tables tr { 
+                      display: block; 
+
+                  }
+
+                  /* Hide table headers (but not display: none;, for accessibility) */
+                  #no-more-tables thead tr { 
+                      position: absolute;
+                      top: -9999px;
+                      left: -9999px;
+                  }
+
+                  #no-more-tables tr { border: 1px solid #ccc; }
+
+                  #no-more-tables td { 
+                      /* Behave  like a "row" */
+                      border: none;
+                      border-bottom: 1px solid #eee; 
+                      position: relative;
+                      padding-left: 50%; 
+                      white-space: normal;
+                      text-align:left;      
+                  }
+
+                  #no-more-tables td:before { 
+                      /* Now like a table header */
+                      position: absolute;
+                      /* Top/left values mimic padding */
+                      top: 6px;
+                      left: 6px;
+                      width: 45%; 
+                      padding-right: 10px; 
+                      white-space: nowrap;
+                      text-align:left;
+                      font-weight: bold;
+                  }
+
+                  /*
+                  Label the data
+                  */
+                  #no-more-tables td:before { content: attr(data-title); }
+              }
+          </style>
+          <!--<![endif]-->
           <table><tr><td><a href="https://twitter.com/FreeAdsPost" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false">Follow @FreeAdsPost</a>
                 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></td>
                 <td>
@@ -498,8 +554,7 @@
                 </td>
                 </tr>
                 </table>
-                <a target="_blank" href="http://www.shareasale.com/r.cfm?b=357716&amp;u=675922&amp;m=29819&amp;urllink=&amp;afftrack="><img src="http://www.shareasale.com/image/29819/468x60.jpg" alt="Catalyst Theme - WordPress Accelerated" border="0" /></a>
-                <span><h3 style="color: blue;"><a target="_blank" href="http://www.my-php-scripts.net/index.php/Wordpress/wordpress-thumbnail-slider-pro-wordpress-featured-image-add-into-slider.html">Upgrade to WordPress Thumbnail Slider Pro</a></h3></span>
+                <span><h3 style="color: blue;"><a target="_blank" href="http://www.my-php-scripts.net/index.php/Wordpress/wordpress-thumbnail-slider-pro-wordpress-featured-image-add-into-slider.html">UPGRADE TO PRO VERSION</a></h3></span>
              
         <?php 
              
@@ -521,171 +576,161 @@
              update_option('thumbnail_slider_messages', array());     
         ?>
 
-       <div style="width: 100%;">  
-        <div style="float:left;width:69%;" >
-        <div class="icon32 icon32-posts-post" id="icon-edit"><br></div>
-        <h2>Images <a class="button add-new-h2" href="admin.php?page=thumbnail_slider_image_management&action=addedit">Add New</a> </h2>
-        <br/>    
-        
-        <form method="POST" action="admin.php?page=thumbnail_slider_image_management&action=deleteselected"  id="posts-filter">
-              <div class="alignleft actions">
-                <select name="action_upper">
-                    <option selected="selected" value="-1">Bulk Actions</option>
-                    <option value="delete">delete</option>
-                </select>
-                <input type="submit" value="Apply" class="button-secondary action" id="deleteselected" name="deleteselected">
-            </div>
-         <br class="clear">
-        <?php 
-        
-          $settings=get_option('thumbnail_slider_settings'); 
-          $visibleImages=$settings['visible'];
-          $query="SELECT * FROM ".$wpdb->prefix."thumbnail_slider order by createdon desc";
-          $rows=$wpdb->get_results($query,'ARRAY_A');
-          $rowCount=sizeof($rows);
-          
-        ?>
-        <?php if($rowCount<$visibleImages){ ?>
-            <h4 style="color: green"> Current slider setting - Total visible images <?php echo $visibleImages; ?></h4>
-            <h4 style="color: green">Please add atleast <?php echo $visibleImages; ?> images</h4>
-        <?php } else{
-            echo "<br/>";
-        }?>
-         <table cellspacing="0" class="wp-list-table widefat fixed posts" style="width:500px">
-         <thead>
-         <tr>
-         <th style="width:30px" class="manage-column column-cb check-column" scope="col"><input type="checkbox"></th>
-        <th style="width:200px" class="manage-column column-title sortable desc" scope="col"><span>Title</span></th>
-        <th style="width:100px"  class="manage-column column-author sortable desc" scope="col"><span>Published On</span></th>
-        <th style="width:50px" class="manage-column column-author sortable desc" scope="col"><span>Edit</span></th>
-        <th style="width:50px" class="manage-column column-author sortable desc" scope="col"><span>Delete</span></th>
-        </thead>
+       <div id="poststuff">  
+        <div id="post-body" class="metabox-holder columns-2">
+            <div id="post-body-content">
+                <div class="icon32 icon32-posts-post" id="icon-edit"><br></div>
+                <h2>Images <a class="button add-new-h2" href="admin.php?page=thumbnail_slider_image_management&action=addedit">Add New</a> </h2>
+                <form method="POST" action="admin.php?page=thumbnail_slider_image_management&action=deleteselected"  id="posts-filter">
+                    <div class="alignleft actions">
+                        <select name="action_upper">
+                            <option selected="selected" value="-1">Bulk Actions</option>
+                            <option value="delete">delete</option>
+                        </select>
+                        <input type="submit" value="Apply" class="button-secondary action" id="deleteselected" name="deleteselected">
+                    </div>
+                    <br class="clear">
+                    <?php 
 
-    <tfoot>
-    <tr>
-        <th  style="width:30px" class="manage-column column-cb check-column" scope="col"><input type="checkbox"></th>
-        <th style="width:200px" class="manage-column column-title sortable desc" scope="col"><span>Title</span></th>
-        <th style="width:100px" class="manage-column column-author sortable desc" scope="col"><span>Published On</span></th>
-        <th style="width:50px" class="manage-column column-author sortable desc" scope="col"><span>Edit</span></th>
-        <th style="width:50px" class="manage-column column-author sortable desc" scope="col"><span>Delete</span></th>
-    </tr>
-    </tfoot>
+                        $settings=get_option('thumbnail_slider_settings'); 
+                        $visibleImages=$settings['visible'];
+                        $query="SELECT * FROM ".$wpdb->prefix."thumbnail_slider order by createdon desc";
+                        $rows=$wpdb->get_results($query,'ARRAY_A');
+                        $rowCount=sizeof($rows);
 
-    <tbody id="the-list">
-                   <?php
-                     
-                    if(count($rows) > 0){
+                    ?>
+                    <?php if($rowCount<$visibleImages){ ?>
+                        <h4 style="color: green"> Current slider setting - Total visible images <?php echo $visibleImages; ?></h4>
+                        <h4 style="color: green">Please add atleast <?php echo $visibleImages; ?> images</h4>
+                        <?php } else{
+                            echo "<br/>";
+                    }?>
+                    <div id="no-more-tables">
+                      <table cellspacing="0" id="gridTbl" class="table-bordered table-striped table-condensed cf" > 
                     
-                        $params = array(
-                                'mode'     => 'Sliding',
-                                'perPage'  => 10,
-                                'delta'    => 10,
-                                'itemData' => $rows,
-                                'fixFileName' => false,
-                               );
-                           // generate pager object
-                           $pager =& Pager::factory($params);
+                        <thead>
+                            <tr>
+                            <th class="manage-column column-cb check-column" scope="col"><input type="checkbox"></th>
+                            <th><span>Title</span></th>
+                            <th><span>Published On</span></th>
+                            <th><span>Edit</span></th>
+                            <th><span>Delete</span></th>
+                            </tr>
+                        </thead>
+                        <tbody id="the-list">
+                            <?php
 
-                           // get data for current page and print
-                           $pageset = $pager->getPageData();
+                                if(count($rows) > 0){
 
-                           $rows = $pageset;
+                                    $params = array(
+                                        'mode'     => 'Sliding',
+                                        'perPage'  => 10,
+                                        'delta'    => 10,
+                                        'itemData' => $rows,
+                                        'fixFileName' => false,
+                                    );
+                                    // generate pager object
+                                    $pager =& Pager::factory($params);
 
-                                      
-                           foreach($rows as $row){ 
-                               
-                               $id=$row['id'];
-                               $editlink="admin.php?page=thumbnail_slider_image_management&action=addedit&id=$id";
-                               $deletelink="admin.php?page=thumbnail_slider_image_management&action=delete&id=$id";
-                               
-                            ?>
-                            <tr valign="top" class="alternate author-self status-publish format-default iedit" id="post-113">
-                                <th style="width:30px" class="check-column" scope="row"><input type="checkbox" value="<?php echo $row['id'] ?>" name="thumbnails[]"></th>
-                                <td style="width:200px" class="post-title page-title column-title"><strong><?php echo stripslashes($row['title']) ?></strong></td>  
-                                <td style="width:100px" class="date column-date"><abbr title="2011/12/22 11:57:24 AM"><?php echo $row['createdon'] ?></td>
-                                <td style="width:50px" class="post-title page-title column-title"><strong><a href='<?php echo $editlink; ?>' title="edit">Edit</a></strong></td>  
-                                <td style="width:50px" class="post-title page-title column-title"><strong><a href='<?php echo $deletelink; ?>' onclick="return confirmDelete();"  title="delete">Delete</a> </strong></td>  
-                           </tr>
-                     <?php 
-                             } 
+                                    // get data for current page and print
+                                    $pageset = $pager->getPageData();
+
+                                    $rows = $pageset;
+
+
+                                    foreach($rows as $row){ 
+
+                                        $id=$row['id'];
+                                        $editlink="admin.php?page=thumbnail_slider_image_management&action=addedit&id=$id";
+                                        $deletelink="admin.php?page=thumbnail_slider_image_management&action=delete&id=$id";
+
+                                    ?>
+                                      <tr valign="top" >
+                                        <td class="alignCenter check-column"   data-title="Select Record" ><input type="checkbox" value="<?php echo $row['id'] ?>" name="thumbnails[]"></td>
+                                        <td   data-title="Title" ><strong><?php echo stripslashes($row['title']) ?></strong></td>  
+                                        <td class="alignCenter"   data-title="Published On" ><?php echo $row['createdon'] ?></td>
+                                        <td class="alignCenter"   data-title="Edit Record" ><strong><a href='<?php echo $editlink; ?>' title="edit">Edit</a></strong></td>  
+                                        <td class="alignCenter"   data-title="Delete Record" ><strong><a href='<?php echo $deletelink; ?>' onclick="return confirmDelete();"  title="delete">Delete</a> </strong></td>  
+                                    </tr>
+                                    
+                                    <?php 
+                                    } 
+                                }
+                                else{
+                                ?>
+
+                                 <tr valign="top" class="" id="">
+                                       <td colspan="5" data-title="No Record" align="center"><strong>No Images Found</strong></td>  
+                                 </tr>
+                                <?php 
+                                } 
+                            ?>      
+                        </tbody>
+                    </table>
+                    </div>
+                    <?php
+                        if(sizeof($rows)>0){
+
+                            $links = $pager->getLinks();
+                            echo "<div class='paggingDiv' style='padding-top:10px'>";
+                            echo $links['all'];
+                            echo "</div>";
+                        }
+                    ?>
+                    <br/>
+                    <div class="alignleft actions">
+                        <select name="action">
+                            <option selected="selected" value="-1">Bulk Actions</option>
+                            <option value="delete">delete</option>
+                        </select>
+                        <input type="submit" value="Apply" class="button-secondary action" id="deleteselected" name="deleteselected">
+                    </div>
+
+                </form>
+                <script type="text/JavaScript">
+
+                    function  confirmDelete(){
+                        var agree=confirm("Are you sure you want to delete this image ?");
+                        if (agree)
+                            return true ;
+                        else
+                            return false;
                     }
-                   else{
-                       ?>
-                   
-                      <tr valign="top" class="alternate author-self status-publish format-default iedit" id="post-113">
-                                <td colspan="5" class="post-title page-title column-title" align="center"><strong>No Images Found</strong></td>  
-                           </tr>
-                  <?php 
-                   } 
-                 ?>      
-        </tbody>
-  </table>
-  <?php
-    if(sizeof($rows)>0){
-    
-     $links = $pager->getLinks();
-     echo "<div class='paggingDiv' style='padding-top:10px'>";
-     echo $links['all'];
-     echo "</div>";
-    }
-  ?>
-    <br/>
-    <div class="alignleft actions">
-        <select name="action">
-            <option selected="selected" value="-1">Bulk Actions</option>
-            <option value="delete">delete</option>
-        </select>
-        <input type="submit" value="Apply" class="button-secondary action" id="deleteselected" name="deleteselected">
-    </div>
+                </script>
 
-    </form>
-        <script type="text/JavaScript">
+                <br class="clear">
+                <h3>To print this slider into WordPress Post/Page use bellow code</h3>
+                <pre class="printCode">[print_thumbnail_slider]</pre>
+                <div class="clear"></div>
+                <h3>To print this slider into WordPress theme/template PHP files use bellow code</h3>
+                <pre class="printCode">echo do_shortcode('[print_thumbnail_slider]'); </pre>
+                <div class="clear"></div>
+            </div>
+            <div id="postbox-container-1" class="postbox-container"> 
+                <div class="postbox"> 
+                    <h3 class="hndle"><span></span>Best Hosting for WordPress</h3> 
+                    <div class="inside">
+                        <center><a target="_blank" href="http://www.shareasale.com/r.cfm?b=531904&u=675922&m=41388&urllink=&afftrack="><img src="http://www.shareasale.com/image/41388/sas_banner_250x250.jpg" alt="WP Engine" border="0"></a></center>
 
-            function  confirmDelete(){
-            var agree=confirm("Are you sure you want to delete this image ?");
-            if (agree)
-                 return true ;
-            else
-                 return false;
-        }
-     </script>
+                        <div style="margin:10px 5px">
 
-        <br class="clear">
-          <h3>To print this slider into WordPress Post/Page use bellow code</h3>
-    <pre class="printCode">
-      [print_thumbnail_slider]
-    </pre>
-    <div class="clear"></div>
-    <h3>To print this slider into WordPress theme/template PHP files use bellow code</h3>
-    <pre class="printCode">
-      echo do_shortcode('[print_thumbnail_slider]'); 
-    </pre>
-    <div class="clear"></div>
+                        </div>
+                    </div></div>
+                <div class="postbox"> 
+                    <h3 class="hndle"><span></span>Recommended WordPress SEO Tools</h3> 
+                    <div class="inside">
+                        <center><a href="http://www.semrush.com/sem.html?ref=961672083"> <img width="250" height="250" src="http://www.berush.com/images/240x240_semrush_en.png" /></a></center>
+
+                        <div style="margin:10px 5px">
+
+                        </div>
+                    </div></div>
+
+
+
+
+            </div> 
         </div>
-         <div id="poststuff" class="metabox-holder has-right-sidebar" style="float:right;width:30%;"> 
-           <div class="postbox"> 
-              <h3 class="hndle"><span></span>Best Hosting for WordPress</h3> 
-              <div class="inside">
-                   <center><script type="text/javascript" src="http://www.hostmonster.com/src/js/nik00726/CODE66/300x250/hm_300x250_01.jpg"></script></center>
-
-                  <div style="margin:10px 5px">
-          
-                  </div>
-          </div></div>
-             <div class="postbox"> 
-              <h3 class="hndle"><span></span>Recommended WordPress SEO Tools</h3> 
-              <div class="inside">
-                   <center><a href="http://www.semrush.com/sem.html?ref=961672083"> <img width="300" height="250" src="http://www.berush.com/images/240x240_semrush_en.png" /></a></center>
-
-                  <div style="margin:10px 5px">
-          
-                  </div>
-          </div></div>
-           
-
-           
-           
-           </div> 
         <div style="clear: both;"></div>
         <?php $url = plugin_dir_url(__FILE__);  ?>
         
@@ -831,176 +876,199 @@
    else{ 
         
   ?>
-     <div style="width: 100%;">  
-        <div style="float:left;width:69%;" >
-            <div class="wrap">
-          <?php if(isset($_GET['id']) and $_GET['id']>0)
-          { 
-               
-                
-                $id= $_GET['id'];
-                $query="SELECT * FROM ".$wpdb->prefix."thumbnail_slider WHERE id=$id";
-                $myrow  = $wpdb->get_row($query);
-                
-                if(is_object($myrow)){
-                
-                  $title=stripslashes($myrow->title);
-                  $image_link=$myrow->custom_link;
-                  $image_name=stripslashes($myrow->image_name);
-                  
-                }   
-              
-          ?>
-           
-            <h2>Update Image </h2>
-               
-          <?php }else{ 
-                  
-                  $title='';
-                  $image_link='';
-                  $image_name='';
-          
-          ?>
-          <h2>Add Image </h2>
-          <?php } ?>
-            
-            <br/>
-            <div id="poststuff">
-              <div id="post-body" class="metabox-holder columns-2">
-                <div id="post-body-content">
-                  <form method="post" action="" id="addimage" name="addimage" enctype="multipart/form-data" >
-                
-                      <div class="stuffbox" id="namediv" style="min-width:550px;">
-                         <h3><label for="link_name">Image Title</label></h3>
-                        <div class="inside">
-                            <input type="text" id="imagetitle"  tabindex="1" size="30" name="imagetitle" value="<?php echo $title;?>">
-                             <div style="clear:both"></div>
-                             <div></div>
-                             <div style="clear:both"></div>
-                            <p><?php _e('Used in image alt for seo'); ?></p>
-                         </div>
-                      </div>
-                      <div class="stuffbox" id="namediv" style="min-width:550px;">
-                         <h3><label for="link_name">Image Url(<?php _e('On click redirect to this url.'); ?>)</label></h3>
-                        <div class="inside">
-                            <input type="text" id="imageurl" class="url"  tabindex="1" size="30" name="imageurl" value="<?php echo $image_link; ?>">
-                             <div style="clear:both"></div>
-                             <div></div>
-                             <div style="clear:both"></div>
-                            <p><?php _e('On image click users will redirect to this url.'); ?></p>
-                         </div>
-                      </div>
-                      <div class="stuffbox" id="namediv" style="min-width:550px;">
-                         <h3><label for="link_name">Upload Image</label></h3>
-                        <div class="inside" id="fileuploaddiv">
-                              <?php if($image_name!=""){ ?>
-                                    <div><b>Current Image : </b><a id="currImg" href="<?php echo $url;?>imagestoscroll/<?php echo $image_name; ?>" target="_new"><?php echo $image_name; ?></a></div>
-                              <?php } ?>      
-                             <input type="file" name="image_name" onchange="reloadfileupload();"  id="image_name" size="30" />
-                             <div style="clear:both"></div>
-                             <div></div>
-                         </div>
-                       </div>
-                        <?php if(isset($_GET['id']) and $_GET['id']>0){ ?> 
-                           <input type="hidden" name="imageid" id="imageid" value="<?php echo $_GET['id'];?>">
-                        <?php
-                        } 
-                        ?>
-                       <input type="submit" onclick="return validateFile();" name="btnsave" id="btnsave" value="Save Changes" class="button-primary">&nbsp;&nbsp;<input type="button" name="cancle" id="cancle" value="Cancel" class="button-primary" onclick="location.href='admin.php?page=thumbnail_slider_image_management'">
-                                  
-                 </form> 
-                  <script type="text/javascript">
-                  
-                     var $n = jQuery.noConflict();  
-                     $n(document).ready(function() {
-                     
-                        $n("#addimage").validate({
-                            rules: {
-                                    imagetitle: {
-                                      required:true, 
-                                      maxlength: 200
-                                    },imageurl: {
-                                      url:true,  
-                                      maxlength: 500
-                                    },
-                                    image_name:{
-                                      isimage:true  
-                                    }
-                               },
-                                 errorClass: "image_error",
-                                 errorPlacement: function(error, element) {
-                                 error.appendTo( element.next().next().next());
-                             } 
-                             
+     <div id="poststuff">  
+       <div id="post-body" class="metabox-holder columns-2">
+         <div id="post-body-content">
+                    <div class="wrap">
+                        <?php if(isset($_GET['id']) and $_GET['id']>0)
+                            { 
 
-                        })
-                    });
-                  
-                  function validateFile(){
-                     
-                     var $n = jQuery.noConflict();   
-                     if($n('#currImg').length>0){
-                         return true;
-                     }
-                        var fragment = $n("#image_name").val();
-                        var filename = $n("#image_name").val().replace(/.+[\\\/]/, "");  
-                        var imageid=$n("#image_name").val();
-                        
-                        if(imageid==""){
-                        
-                            if(filename!="")
-                             return true;
-                            else
-                            {
-                                $n("#err_daynamic").remove();
-                                $n("#image_name").after('<label class="image_error" id="err_daynamic">Please select file.</label>');
-                                return false;  
-                            } 
-                        }
-                       else{
-                           return true;
-                       }      
-                  }
-                  function reloadfileupload(){
-    
-                                var $n = jQuery.noConflict();  
-                                var fragment = $n("#image_name").val();
-                                var filename = $n("#image_name").val().replace(/.+[\\\/]/, "");
-                                var validExtensions=new Array();
-                                validExtensions[0]='jpg';
-                                validExtensions[1]='jpeg';
-                                validExtensions[2]='png';
-                                validExtensions[3]='gif';
-                                validExtensions[4]='bmp';
-                                validExtensions[5]='tif';
-                                
-                                var extension = filename.substr( (filename.lastIndexOf('.') +1) ).toLowerCase();
-                                
-                                var inarr=parseInt($n.inArray( extension, validExtensions));
-                                
-                                if(inarr<0){
-                                 
-                                  $n("#err_daynamic").remove();
-                                  $n('#fileuploaddiv').html($n('#fileuploaddiv').html());   
-                                  $n("#image_name").after('<label class="image_error" id="err_daynamic">Invalid file extension</label>');
-                                 
-                                }
-                               else{
-                                   $n("#err_daynamic").remove();
-                                 
-                               } 
 
-                       
-                    }  
-                </script> 
+                                $id= $_GET['id'];
+                                $query="SELECT * FROM ".$wpdb->prefix."thumbnail_slider WHERE id=$id";
+                                $myrow  = $wpdb->get_row($query);
+
+                                if(is_object($myrow)){
+
+                                    $title=stripslashes($myrow->title);
+                                    $image_link=$myrow->custom_link;
+                                    $image_name=stripslashes($myrow->image_name);
+
+                                }   
+
+                            ?>
+
+                            <h2>Update Image </h2>
+
+                            <?php }else{ 
+
+                                $title='';
+                                $image_link='';
+                                $image_name='';
+
+                            ?>
+                            <h2>Add Image </h2>
+                            <?php } ?>
+
+                        <br/>
+                        <div id="poststuff">
+                            <div id="post-body" class="metabox-holder columns-2">
+                                <div id="post-body-content">
+                                    <form method="post" action="" id="addimage" name="addimage" enctype="multipart/form-data" >
+
+                                        <div class="stuffbox" id="namediv" style="width:100%;">
+                                            <h3><label for="link_name">Image Title</label></h3>
+                                            <div class="inside">
+                                                <input type="text" id="imagetitle"   size="30" name="imagetitle" value="<?php echo $title;?>">
+                                                <div style="clear:both"></div>
+                                                <div></div>
+                                                <div style="clear:both"></div>
+                                                <p><?php _e('Used in image alt for seo'); ?></p>
+                                            </div>
+                                        </div>
+                                        <div class="stuffbox" id="namediv" style="width:100%;">
+                                            <h3><label for="link_name">Image Url(<?php _e('On click redirect to this url.'); ?>)</label></h3>
+                                            <div class="inside">
+                                                <input type="text" id="imageurl" class="url"   size="30" name="imageurl" value="<?php echo $image_link; ?>">
+                                                <div style="clear:both"></div>
+                                                <div></div>
+                                                <div style="clear:both"></div>
+                                                <p><?php _e('On image click users will redirect to this url.'); ?></p>
+                                            </div>
+                                        </div>
+                                        <div class="stuffbox" id="namediv" style="width:100%;">
+                                            <h3><label for="link_name">Upload Image</label></h3>
+                                            <div class="inside" id="fileuploaddiv">
+                                                <?php if($image_name!=""){ ?>
+                                                    <div><b>Current Image : </b><a id="currImg" href="<?php echo $url;?>imagestoscroll/<?php echo $image_name; ?>" target="_new"><?php echo $image_name; ?></a></div>
+                                                    <?php } ?>      
+                                                <input type="file" name="image_name" onchange="reloadfileupload();"  id="image_name" size="30" />
+                                                <div style="clear:both"></div>
+                                                <div></div>
+                                            </div>
+                                        </div>
+                                        <?php if(isset($_GET['id']) and $_GET['id']>0){ ?> 
+                                            <input type="hidden" name="imageid" id="imageid" value="<?php echo $_GET['id'];?>">
+                                            <?php
+                                            } 
+                                        ?>
+                                        <input type="submit" onclick="return validateFile();" name="btnsave" id="btnsave" value="Save Changes" class="button-primary">&nbsp;&nbsp;<input type="button" name="cancle" id="cancle" value="Cancel" class="button-primary" onclick="location.href='admin.php?page=thumbnail_slider_image_management'">
+
+                                    </form> 
+                                    <script type="text/javascript">
+
+                                        var $n = jQuery.noConflict();  
+                                        $n(document).ready(function() {
+
+                                                $n("#addimage").validate({
+                                                        rules: {
+                                                            imagetitle: {
+                                                                required:true, 
+                                                                maxlength: 200
+                                                            },imageurl: {
+                                                                url:true,  
+                                                                maxlength: 500
+                                                            },
+                                                            image_name:{
+                                                                isimage:true  
+                                                            }
+                                                        },
+                                                        errorClass: "image_error",
+                                                        errorPlacement: function(error, element) {
+                                                            error.appendTo( element.next().next().next());
+                                                        } 
+
+
+                                                })
+                                        });
+
+                                        function validateFile(){
+
+                                            var $n = jQuery.noConflict();   
+                                            if($n('#currImg').length>0){
+                                                return true;
+                                            }
+                                            var fragment = $n("#image_name").val();
+                                            var filename = $n("#image_name").val().replace(/.+[\\\/]/, "");  
+                                            var imageid=$n("#image_name").val();
+
+                                            if(imageid==""){
+
+                                                if(filename!="")
+                                                    return true;
+                                                else
+                                                    {
+                                                    $n("#err_daynamic").remove();
+                                                    $n("#image_name").after('<label class="image_error" id="err_daynamic">Please select file.</label>');
+                                                    return false;  
+                                                } 
+                                            }
+                                            else{
+                                                return true;
+                                            }      
+                                        }
+                                        function reloadfileupload(){
+
+                                            var $n = jQuery.noConflict();  
+                                            var fragment = $n("#image_name").val();
+                                            var filename = $n("#image_name").val().replace(/.+[\\\/]/, "");
+                                            var validExtensions=new Array();
+                                            validExtensions[0]='jpg';
+                                            validExtensions[1]='jpeg';
+                                            validExtensions[2]='png';
+                                            validExtensions[3]='gif';
+                                            validExtensions[4]='bmp';
+                                            validExtensions[5]='tif';
+
+                                            var extension = filename.substr( (filename.lastIndexOf('.') +1) ).toLowerCase();
+
+                                            var inarr=parseInt($n.inArray( extension, validExtensions));
+
+                                            if(inarr<0){
+
+                                                $n("#err_daynamic").remove();
+                                                $n('#fileuploaddiv').html($n('#fileuploaddiv').html());   
+                                                $n("#image_name").after('<label class="image_error" id="err_daynamic">Invalid file extension</label>');
+
+                                            }
+                                            else{
+                                                $n("#err_daynamic").remove();
+
+                                            } 
+
+
+                                        }  
+                                    </script> 
+
+                                </div>
+                            </div>
+                        </div>  
+                    </div>      
+                </div>
+         <div id="postbox-container-1" class="postbox-container" > 
+
+                    <div class="postbox"> 
+                        <h3 class="hndle"><span></span>All WordPress Themes In One Price</h3> 
+                        <div class="inside">
+                            <center><a href="http://www.elegantthemes.com/affiliates/idevaffiliate.php?id=11715_0_1_10" target="_blank"><img border="0" src="http://www.elegantthemes.com/affiliates/banners/300x250.gif" width="250" height="250"></a></center>
+
+                            <div style="margin:10px 5px">
+
+                            </div>
+                        </div></div>
+                    <div class="postbox"> 
+                        <h3 class="hndle"><span></span>Recommended WordPress Hosting</h3> 
+                        <div class="inside">
+                            <center><a target="_blank" href="http://www.shareasale.com/r.cfm?b=531904&u=675922&m=41388&urllink=&afftrack="><img src="http://www.shareasale.com/image/41388/sas_banner_250x250.jpg" alt="WP Engine" border="0"></a></center>
+
+                            <div style="margin:10px 5px">
+
+                            </div>
+                        </div></div>
 
                 </div>
-          </div>
-        </div>  
-     </div>      
-         </div>
-      
-     
+       </div>    
+     </div>
     <?php 
     } 
   }  
