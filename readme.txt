@@ -1,9 +1,9 @@
 === WordPress Thumbnail Slider ===
 Contributors:nik00726
-Donate link:http://my-php-scripts.net/donate-wordpress_image_thumbnail.php
+Donate link:http://www.i13websolution.com/donate-wordpress_image_thumbnail.php
 Tags:wordpress thumbnail slider,wordpress slider,wordpress thumbnail scroller,wp thumbnail slider,wordpress image sliders,wordpress slider with thumbnails,wordpress banner slider,wordpress image slider with thumbnails,thumbnail slider wordpress,wordpress feature slider
 Requires at least:3.0
-Tested up to:3.8
+Tested up to:3.8.1
 Version:1.3
 Stable tag:1.3
 License:GPLv2 or later
@@ -12,13 +12,13 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 This is beautiful thumbnail slider for wordPress blogs and sites.Admin can manages any number of images into the slider.
 Admin can add,edit and delete slider images.Before add slider to wordPress blog admin can preview a slider.Admin can set height,width of slider images.Admin can also set speed,Number Of visible images into slider,Circular slider.Admin can also set if want to slide images with left and right arrow or by automatic slider.
 
-**Find WordPress Thumbnail Slider Pro Plugin(Unlimited Slider+Much more) at [wordPress Thumbnail Slider Pro](http://www.my-php-scripts.net/index.php/Wordpress/wordpress-thumbnail-slider-pro-wordpress-featured-image-add-into-slider.html)**
+**Find WordPress Thumbnail Slider Pro Plugin(Unlimited Slider+Much more) at [wordPress Thumbnail Slider Pro](http://www.i13websolution.com/wordpress-pro-plugins/wordpress-thumbnail-slider-pro.html)**
 
-**Find WordPress Thumbnail Slider Pro With Lightbox(Unlimited Slider+Much more) at [wordPress Thumbnail Slider With Lightbox](http://www.my-php-scripts.net/index.php/Wordpress/wordpress-lightbox-gallery-slider-pro.html)**
+**Find WordPress Thumbnail Slider Pro With Lightbox(Unlimited Slider+Much more) at [wordPress Thumbnail Slider With Lightbox](http://www.i13websolution.com/wordpress-lightbox-gallery-slider-pro-plugin.html)**
 
-**Find WordPress Responsive Thumbnail Slider Pro Plugin(Unlimited Slider+Much more) at [Responsive Thumbnail Slider Pro](http://www.my-php-scripts.net/index.php/Wordpress/wordpress-responsive-thumbnail-slider-pro.html)**
+**Find WordPress Responsive Thumbnail Slider Pro Plugin(Unlimited Slider+Much more) at [Responsive Thumbnail Slider Pro](http://www.i13websolution.com/wordpress-responsive-thumbnail-slider-pro.html)**
 
-**[Live Demo WP Thumbnail Slider Pro](http://my-php-scripts.net/wpdemo/wordpress-thumbnail-slider-pro/)**
+**[Live Demo WP Thumbnail Slider Pro](http://www.i13websolution.com/wpdemo/wordpress-thumbnail-slider-pro/)**
 
 
 **Please rate this plugin if you find it useful**
@@ -69,7 +69,7 @@ to theme or pages/posts.
 9. Support responsive admin layout
 
 
-[Get Support](http://www.my-php-scripts.net/index.php/Default-form.html)
+[Get Support](http://www.i13websolution.com/contacts)
 
 
 == Installation ==

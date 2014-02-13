@@ -1,9 +1,10 @@
 <?php
    /* 
     Plugin Name: WordPress Thumbnail Slider
-    Plugin URI:http://www.my-php-scripts.net 
+    Plugin URI:http://www.i13websolution.com 
     Description: This is beautiful thumbnail image slider plugin for WordPress.Add any number of images from admin panel.
-    Author:Nikunj Gandhi 
+    Author:I Thirteen Web Solution
+    Author URI: http://www.i13websolution.com
     Version:1.3
     */
 
@@ -149,13 +150,13 @@
                <table><tr><td><a href="https://twitter.com/FreeAdsPost" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false">Follow @FreeAdsPost</a>
                 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></td>
                 <td>
-                <a target="_blank" title="Donate" href="http://my-php-scripts.net/donate-wordpress_image_thumbnail.php">
-                <img id="help us for free plugin" height="30" width="90" src="http://www.postfreeadvertising.com/images/paypaldonate.jpg" border="0" alt="help us for free plugin" title="help us for free plugin">
+                <a target="_blank" title="Donate" href="http://www.i13websolution.com/donate-wordpress_image_thumbnail.php">
+                <img id="help us for free plugin" height="30" width="90" src="http://www.i13websolution.com/images/paypaldonate.jpg" border="0" alt="help us for free plugin" title="help us for free plugin">
                 </a>
                 </td>
                 </tr>
                 </table>
-                <span><h3 style="color: blue;"><a target="_blank" href="http://www.my-php-scripts.net/index.php/Wordpress/wordpress-thumbnail-slider-pro-wordpress-featured-image-add-into-slider.html">UPGRADE TO PRO VERSION</a></h3></span>
+                <span><h3 style="color: blue;"><a target="_blank" href="http://www.i13websolution.com/wordpress-pro-plugins/wordpress-thumbnail-slider-pro.html">UPGRADE TO PRO VERSION</a></h3></span>
                 
       
               <?php
@@ -548,13 +549,13 @@
           <table><tr><td><a href="https://twitter.com/FreeAdsPost" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false">Follow @FreeAdsPost</a>
                 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></td>
                 <td>
-                <a target="_blank" title="Donate" href="http://my-php-scripts.net/donate-wordpress_image_thumbnail.php">
-                <img id="help us for free plugin" height="30" width="90" src="http://www.postfreeadvertising.com/images/paypaldonate.jpg" border="0" alt="help us for free plugin" title="help us for free plugin">
+                <a target="_blank" title="Donate" href="http://www.i13websolution.com/donate-wordpress_image_thumbnail.php">
+                <img id="help us for free plugin" height="30" width="90" src="http://www.i13websolution.com/images/paypaldonate.jpg" border="0" alt="help us for free plugin" title="help us for free plugin">
                 </a>
                 </td>
                 </tr>
                 </table>
-                <span><h3 style="color: blue;"><a target="_blank" href="http://www.my-php-scripts.net/index.php/Wordpress/wordpress-thumbnail-slider-pro-wordpress-featured-image-add-into-slider.html">UPGRADE TO PRO VERSION</a></h3></span>
+                <span><h3 style="color: blue;"><a target="_blank" href="http://www.i13websolution.com/wordpress-pro-plugins/wordpress-thumbnail-slider-pro.html">UPGRADE TO PRO VERSION</a></h3></span>
              
         <?php 
              
