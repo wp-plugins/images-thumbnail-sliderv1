@@ -3,12 +3,15 @@ Contributors:nik00726
 Donate link:http://www.i13websolution.com/donate-wordpress_image_thumbnail.php
 Tags:wordpress thumbnail slider,wordpress slider,wordpress thumbnail scroller,wp thumbnail slider,wordpress image sliders,wordpress slider with thumbnails,wordpress banner slider,wordpress image slider with thumbnails,thumbnail slider wordpress,wordpress feature slider
 Requires at least:3.0
-Tested up to:3.9
+Tested up to:4.0
 Version:1.3
 Stable tag:1.3
 License:GPLv2 or later
 License URI:http://www.gnu.org/licenses/gpl-2.0.html
 == Description ==
+
+**Now Support Upto WordPress 4.0**
+
 This is beautiful thumbnail slider for wordPress blogs and sites.Admin can manages any number of images into the slider.
 Admin can add,edit and delete slider images.Before add slider to wordPress blog admin can preview a slider.Admin can set height,width of slider images.Admin can also set speed,Number Of visible images into slider,Circular slider.Admin can also set if want to slide images with left and right arrow or by automatic slider.
 
