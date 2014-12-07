@@ -1,15 +1,15 @@
 <?php
     /* 
     Plugin Name: WordPress Thumbnail Slider
-    Plugin URI:http://www.i13websolution.com 
+    Plugin URI:http://www.i13websolution.com/wordpress-thumbnail-slider-pro.html
     Description: This is beautiful thumbnail image slider plugin for WordPress.Add any number of images from admin panel.
     Author:I Thirteen Web Solution
-    Author URI: http://www.i13websolution.com
+    Author URI:http://www.i13websolution.com/wordpress-thumbnail-slider-pro.html
     Version:1.3
     */
-
+	error_reporting(0);
     add_action('admin_menu', 'add_admin_menu');
-    add_action( 'admin_init', 'my_plugin_admin_init' );
+    //add_action( 'admin_init', 'my_plugin_admin_init' );
     register_activation_hook(__FILE__,'install_thumbnailSlider');
     add_action('wp_enqueue_scripts', 'thumbnail_slider_load_styles_and_js');
     add_shortcode( 'print_thumbnail_slider', 'print_thumbnail_slider_func' );
@@ -56,11 +56,14 @@
 
     function add_admin_menu(){
 
-        add_menu_page( __( 'Thumbnail Slider'), __( 'Thumbnail Slider' ), 'administrator', 'thumbnail_slider', 'thumbnail_slider_admin_options' );
-        add_submenu_page( 'thumbnail_slider', __( 'Slider Setting'), __( 'Slider Setting' ),'administrator', 'thumbnail_slider', 'thumbnail_slider_admin_options' );
-        add_submenu_page( 'thumbnail_slider', __( 'Manage Images'), __( 'Manage Images'),'administrator', 'thumbnail_slider_image_management', 'thumbnail_image_management' );
-        add_submenu_page( 'thumbnail_slider', __( 'Preview Slider'), __( 'Preview Slider'),'administrator', 'thumbnail_slider_preview', 'previewSliderAdmin' );
-
+        $hook_suffix_t_h=add_menu_page( __( 'Thumbnail Slider'), __( 'Thumbnail Slider' ), 'administrator', 'thumbnail_slider', 'thumbnail_slider_admin_options' );
+        $hook_suffix_t_h=add_submenu_page( 'thumbnail_slider', __( 'Slider Setting'), __( 'Slider Setting' ),'administrator', 'thumbnail_slider', 'thumbnail_slider_admin_options' );
+        $hook_suffix_t_h_1=add_submenu_page( 'thumbnail_slider', __( 'Manage Images'), __( 'Manage Images'),'administrator', 'thumbnail_slider_image_management', 'thumbnail_image_management' );
+        $hook_suffix_t_h_2=add_submenu_page( 'thumbnail_slider', __( 'Preview Slider'), __( 'Preview Slider'),'administrator', 'thumbnail_slider_preview', 'previewSliderAdmin' );
+		
+        add_action( 'load-' . $hook_suffix_t_h , 'my_plugin_admin_init' );
+        add_action( 'load-' . $hook_suffix_t_h_1 , 'my_plugin_admin_init' );
+        add_action( 'load-' . $hook_suffix_t_h_2 , 'my_plugin_admin_init' );
 
     }
 
