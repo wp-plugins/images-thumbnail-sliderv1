@@ -759,6 +759,7 @@
                             update_option('thumbnail_slider_messages', $thumbnail_slider_messages);
 
                             echo "<script type='text/javascript'> location.href='$location';</script>";
+                            exit;
 
                         }
                         else{
@@ -800,6 +801,8 @@
 
 
                     echo "<script type='text/javascript'> location.href='$location';</script>";
+                    exit;
+                    
                 }
                 else{
 
@@ -827,6 +830,7 @@
                         update_option('thumbnail_slider_messages', $thumbnail_slider_messages);
 
                         echo "<script type='text/javascript'> location.href='$location';</script>";
+                        exit;
 
                     }
                     else{
@@ -862,7 +866,8 @@
                         }  
 
                     }     
-                    echo "<script type='text/javascript'> location.href='$location';</script>";          
+                    echo "<script type='text/javascript'> location.href='$location';</script>";  
+                    exit;
 
                 } 
 
@@ -1107,6 +1112,7 @@
             }  
 
             echo "<script type='text/javascript'> location.href='$location';</script>";
+            exit;
 
         }  
         else if(strtolower($action)==strtolower('deleteselected')){
@@ -1155,18 +1161,21 @@
                     }  
 
                     echo "<script type='text/javascript'> location.href='$location';</script>";
+                    exit;
 
 
                 }
                 else{
 
-                    echo "<script type='text/javascript'> location.href='$location';</script>";   
+                    echo "<script type='text/javascript'> location.href='$location';</script>";
+                    exit;
                 }
 
             }
             else{
 
-                echo "<script type='text/javascript'> location.href='$location';</script>";      
+                echo "<script type='text/javascript'> location.href='$location';</script>"; 
+                exit;
             }
 
         }      
