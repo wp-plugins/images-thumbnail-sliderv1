@@ -21,7 +21,7 @@ Admin can add,edit and delete slider images.Before add slider to wordPress blog 
 
 **Find WordPress Responsive Thumbnail Slider Pro Plugin(Unlimited Slider+Much more) at [Responsive Thumbnail Slider Pro](http://www.i13websolution.com/wordpress-responsive-thumbnail-slider-pro.html)**
 
-**[Live Demo WP Thumbnail Slider Pro](http://www.i13websolution.com/wpdemo/wordpress-thumbnail-slider-pro/)**
+**[Live Demo WP Thumbnail Slider Pro](http://blog.i13websolution.com/live-preview-wp-non-responsive-thumbnail-pro/)**
 
 
 **Please rate this plugin if you find it useful**
